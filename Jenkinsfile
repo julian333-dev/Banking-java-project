@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout the code from github'){
             steps{
-                 git url: 'https://github.com/julian333-dev/Banking-java-project/edit/master/Jenkinsfile'
+                 git url: 'https://github.com/julian333-dev/Banking-java-project.git'
                  echo 'github url checkout'
             }
         }
